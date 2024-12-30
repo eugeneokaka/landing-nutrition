@@ -1,10 +1,11 @@
+import myimage from "../public/h.jpg";
 function Hero() {
   return (
     <div className="lg:w-8/12 mx-auto">
       <div className="hero  min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="/h.jpg"
+            src={myimage}
             className="max-w-sm rounded-lg shadow-2xl aspect-square object-cover "
           />
           <div>

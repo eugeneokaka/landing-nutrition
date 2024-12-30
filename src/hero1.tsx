@@ -1,10 +1,11 @@
+import myimage from "../public/r.jpg";
 function Hero1() {
   return (
     <div className="">
       <div
         className="h hero min-h-screen w-11/12  mx-auto sm:mx-auto  "
         style={{
-          backgroundImage: "url(/r.jpg)",
+          backgroundImage: `url(${myimage})`,
         }}
       >
         <div className="h hero-overlay bg-opacity-60 "></div>
